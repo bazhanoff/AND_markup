@@ -1,0 +1,33 @@
+Для сборки проекта нужно:
+// Для использования нужен Node.JS
+// Поставьте webpack:
+//   npm i -g webpack // глобально
+//   npm i webpack --save-dev // локально для package.json
+
+// Поставьте webpack-cli:
+//  npm install webpack-cli --save-dev
+
+// Поставьте babel и babel-loader:
+//   npm install babel-loader@7 babel-core
+
+Создать файл webpack.config.js:
+const path = require('path');
+const webpack = require('webpack');
+module.exports = {
+    entry: './js/main',
+    output: {
+        filename: 'bundle.js'
+    },
+
+    module: {
+        rules: [
+            { test: /\.js$/, loader: "babel-loader" }
+        ]
+    }
+};
+
+В консоли выполнить команду: webpack Полученный скрипт будет находиться в директории ./dist/bundle.js
+
+
+
+
