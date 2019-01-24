@@ -1,3 +1,8 @@
-body {
-    background-color: green;
-}
+@import url("modules/settings.css");
+@import url("modules/base.css");
+@import url("modules/page.css");
+@import url("modules/header.css");
+@import url("modules/list.css");
+@import url("modules/footer.css");
+@import url("modules/main.css");
+@import url("modules/container.css");

@@ -1,0 +1,18 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.page-container {
+    padding-top: 6.5rem;
+    flex-grow: 1;
+}
+
+.page-content {
+    margin-top: 7rem;
+}
+
+.page-footer {
+    margin-top: 15rem;
+}

@@ -1,0 +1,21 @@
+.header {
+    font-size: 1.5rem;
+    color: #9da6b5;
+}
+
+.header-menuList {
+    display: flex;
+}
+
+.header-menuListItem:not(:last-child) {
+    margin-right: 2.5rem;
+}
+.header-menuLink {
+    color: inherit;
+    text-decoration: none;
+    transition: color .3s;
+}
+
+.header-menuLink:hover, .header-menuLink:focus {
+    color: #44494f;
+}

@@ -1,0 +1,17 @@
+.main {
+    box-sizing: border-box;
+    padding-left: 4rem;
+}
+
+.main-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.main-info {
+    max-width: 50rem;
+}
+
+.main-infoSeparator {
+    display: block;
+}

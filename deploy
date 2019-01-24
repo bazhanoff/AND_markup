@@ -5,6 +5,7 @@
 //   npm i webpack --save-dev // локально для package.json
 
 // Поставьте webpack-cli:
+//  npm install webpack-cli -g
 //  npm install webpack-cli --save-dev
 
 // Поставьте babel и babel-loader:
